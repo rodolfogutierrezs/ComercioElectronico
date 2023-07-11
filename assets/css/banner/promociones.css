@@ -1,0 +1,27 @@
+.tituloPromocion{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.detallePromocion{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.consolas{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}

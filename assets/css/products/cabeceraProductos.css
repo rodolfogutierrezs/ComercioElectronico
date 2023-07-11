@@ -1,0 +1,13 @@
+.titulo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productosTitulo{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    padding-left: 2rem;
+}
+

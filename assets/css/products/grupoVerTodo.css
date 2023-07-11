@@ -1,0 +1,17 @@
+.verTodoGrupo{
+    display: flex;
+    align-items: center;
+}
+
+.verTodo{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2A7AE4;
+}
+
+.flecha{
+    width: 24px;
+    height: 24px;
+}

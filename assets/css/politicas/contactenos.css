@@ -1,0 +1,13 @@
+.Contactenos{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #464646;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}

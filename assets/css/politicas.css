@@ -1,0 +1,15 @@
+.contact{
+    display: flex;
+}
+
+.logopie{
+    flex: 33%;
+}
+
+.informacion{
+    flex: 33%;
+}
+
+.Contactenos{
+    flex: 34%;
+}

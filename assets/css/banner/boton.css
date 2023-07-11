@@ -1,0 +1,11 @@
+.consolas{
+    background: #2A7AE4;
+    width: 200px;
+    border: none;
+    padding: 16px;
+    gap: 10px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
