@@ -1,0 +1,88 @@
+.credenciales--inicioSesion{
+    width: 131px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.13px;
+    border-radius: 4px;
+    color: #464646;
+}
+
+.correoElectronico{
+    width: 423px;
+    height: 63.13px;
+    padding: 8px;
+    border: solid 1px;
+    color: #2A7AE4;
+}
+
+.contrasena{
+    width: 423px;
+    height: 63px;
+    padding: 8px;
+    border: solid 1px;
+    color: #2A7AE4;
+}
+
+.Entrar{
+    width: 441px;
+    height: 62px;
+    padding: 8px;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.13px;
+    background-color: #2A7AE4;
+    padding: 1px 2px 1px 2px;
+    border-width: 2px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .credenciales--inicioSesion{
+        padding-top: 1rem;
+        width: 105px;
+        font-size: 16px;
+        line-height: 18.78px;        
+    }
+
+    .correoElectronico{
+        width: 275px;
+        height: 41px;
+        border-radius: 4px;
+    }
+
+    .contrasena{
+        width: 275px;
+        height: 41px;
+    }
+
+    .Entrar{
+        width: 109px;
+        height: 40px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Entrar{
+        font-size: 14px;
+        list-style: 16.44px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .inicio--sesionDatos{
+        width: 275px;
+    }
+
+    .correoElectronico{
+        width: 257px;
+    }
+
+    .contrasena {
+        width: 257px;
+    }
+}

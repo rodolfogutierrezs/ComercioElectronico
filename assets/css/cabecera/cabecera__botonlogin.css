@@ -1,0 +1,37 @@
+.logoynombre{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    background: none;
+    width: 166px;
+    height: 51px;
+    border: solid 1px;
+    padding: 16px;
+    border-color: #2A7AE4;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A7AE4;
+}
+
+@media screen and (max-width: 768px){
+    .login{
+        width: 166px;
+        height: 40px;
+        padding: 12px 16px 12px 16px;
+        gap: 10px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .login{
+        width: 120px;
+        border: solid 1px;
+        padding: 12px 0px 12px 0px;
+    }
+}

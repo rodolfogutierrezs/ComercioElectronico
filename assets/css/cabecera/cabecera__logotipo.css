@@ -1,0 +1,39 @@
+.logoEmpresa{
+    width: 25px;
+}
+
+.cabecera--logotipo{
+    display: flex;
+}
+
+.cabecera--nombreEmpresa{
+    font-family: "Fasthand";
+    font-size: 28px;
+}
+
+.cabecera--barraBusqueda{
+    display: flex;
+}
+
+.iconoLupa{
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width:768px) {
+    .cabecera--nombreEmpresa{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+    .logoEmpresa{
+        width: 25px;
+        height: 25px;
+    }
+
+    .cabecera--nombreEmpresa{
+        font-size: 18px;
+    }
+}

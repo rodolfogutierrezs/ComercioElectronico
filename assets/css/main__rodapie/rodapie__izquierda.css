@@ -1,0 +1,19 @@
+.rodapie--izquierda{
+    display: flex;
+    width: 50%;
+    gap: 8px;
+}
+
+@media screen and (max-width:768px) {
+    .rodapie--izquierda{
+        flex-direction: column;
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .rodapie--izquierda{
+        width: 100%;
+        gap: 8px;
+    }
+}

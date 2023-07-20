@@ -1,7 +1,22 @@
 .products{
+    width: 1500px;
     max-width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin-top: 5rem;
-    gap: 2rem;
+    padding-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px){
+    .products{
+        width: 704px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .products{
+        width: 328px;
+    }
+    
 }

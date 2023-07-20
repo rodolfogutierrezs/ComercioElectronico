@@ -1,0 +1,22 @@
+.seleccionMasVendidos--detalle--cuadroLibros--detalleLibros{
+    position: relative;
+    width: 176px;
+    height: 176px;
+    padding-bottom: 8rem;
+    padding-left: 5rem;
+}
+
+@media screen and (max-width:768px) {
+    .seleccionMasVendidos--detalle--cuadroLibros--detalleLibros{
+        width: 164px;
+        height: 249px;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .seleccionMasVendidos--detalle--cuadroLibros--detalleLibros{
+       width: 140px;
+    height: 219px; 
+    }
+}

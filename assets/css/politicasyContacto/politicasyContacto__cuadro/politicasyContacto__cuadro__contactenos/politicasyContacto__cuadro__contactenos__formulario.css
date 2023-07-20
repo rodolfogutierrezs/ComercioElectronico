@@ -1,0 +1,20 @@
+.politicasyContacto--cuadro--contactenos--formulario{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    gap: 1rem;
+    max-width: 560px;
+}
+
+@media screen and (max-width:768px) {
+    .politicasyContacto--cuadro--contactenos--formulario{
+        max-width: 390px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .politicasyContacto--cuadro--contactenos--formulario{
+        max-width: 280px;
+        padding-left: 2rem;
+    }    
+}

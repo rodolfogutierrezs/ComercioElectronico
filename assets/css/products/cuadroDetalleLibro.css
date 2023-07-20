@@ -1,0 +1,69 @@
+.detalleLibro{
+    height: 500px;
+    width: 350px;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.tituloLibro{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.44px;
+}
+
+.precio{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+.enlace{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #2A7AE4;
+}
+
+@media screen and (max-width: 768px){
+    .detalleLibro:nth-child(5){
+        display: none;
+    }
+
+    .detalleLibro:nth-child(6){
+        display: none;
+    }
+
+    .detalleLibro{
+        height: 252px;
+        width: 164px;
+        padding-bottom: 7rem;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .detalleLibro:nth-child(3){
+        display: none;
+    }
+
+    .detalleLibro:nth-child(4){
+        display: none;
+    } 
+
+    .detalleLibro:nth-child(5){
+        display: none;
+    }
+
+    .detalleLibro:nth-child(6){
+        display: none;
+    }
+
+    .detalleLibro{
+        max-height: 249px;
+        max-width: 156px;
+        padding-bottom: 7rem;
+    }
+
+}

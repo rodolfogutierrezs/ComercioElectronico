@@ -11,12 +11,12 @@
 
         <link href="assets/reset.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="assets/css/encabezados.css">
-        <link rel="stylesheet" href="assets/css/cabecera/encabezado.css">
-        <link rel="stylesheet" href="assets/css/cabecera/seccionIzquierda.css">
-        <link rel="stylesheet" href="assets/css/cabecera/izquierdaPrimer.css">
-        <link rel="stylesheet" href="assets/css/cabecera/barrabusqueda.css">
-        <link rel="stylesheet" href="assets/css/cabecera/tituloPromocion.css">        
+        <link rel="stylesheet" href="assets/css/cabecera.css">
+        <link rel="stylesheet" href="assets/css/cabecera/cabecera__logoBusqueda.css">
+        <link rel="stylesheet" href="assets/css/cabecera/cabecera__logotipo.css">
+        <link rel="stylesheet" href="assets/css/cabecera/cabecera__barraBusqueda.css">
+        <link rel="stylesheet" href="assets/css/cabecera/cabecera__botonlogin.css">
+
         <link rel="stylesheet" href="assets/css/banner.css">
         <link rel="stylesheet" href="assets/css/banner/promociones.css">
         <link rel="stylesheet" href="assets/css/banner/imagenes.css">
@@ -26,21 +26,30 @@
         <link rel="stylesheet" href="assets/css/products/images.css">
         <link rel="stylesheet" href="assets/css/products/cabeceraProductos.css">
         <link rel="stylesheet" href="assets/css/products/grupoVerTodo.css">
-        <link rel="stylesheet" href="assets/css/politicas.css">
-        <link rel="stylesheet" href="assets/css/politicas/logotipo.css">
-        <link rel="stylesheet" href="assets/css/politicas/enlaces.css">
-        <link rel="stylesheet" href="assets/css/politicas/contactenos.css">
-
+        <link rel="stylesheet" href="assets/css/products/cuadroDetalleLibro.css">
+        <link rel="stylesheet" href="assets/css/products/secciones.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__izquierda.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__izquierda/politicasyContacto__cuadro__izquierda__logotipo.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__izquierda/politicasyContacto__cuadro__izquierda__enlaces.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/politicasyContacto__cuadro__contactenos__rotuloHablenos.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/politicasyContacto__cuadro__contactenos__formulario.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/polyContac__cuadro__contactenos__formulario/polyContac__cuadro__contactenos__nombre.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/polyContac__cuadro__contactenos__formulario/polyContac__cuadro__contactenos__mensaje.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/politicasyContacto__cuadro__contactenos__enviar.css">
+        <link rel="stylesheet" href="assets/css/footer__creditos.css">
     </head>
     <body>
         <header>
-            <div class="logo">
-                <div class="logoybusqueda">
+            <div class="cabecera">
+                <div class="cabecera--logoBusqueda">
                     <div class="logoynombre">
-                        <img class="iot" src="assets/img/iotsalud_logo_B.gif" alt="Logo FNX Servicios">
-                        <p class="empresa">FNX Servicios</p>                            
+                        <img class="logoEmpresa" src="assets/img/iotsalud_logo_B.gif" alt="Logo FNX Servicios">
+                        <p class="cabecera--nombreEmpresa">F.N.X. Servicios</p>
                     </div>
-                    <div class="marco">
+                    <div class="cabecera--barraBusqueda">
                         <form action="">
                             <input
                             type="text"
@@ -49,28 +58,28 @@
                             class="inputForm"
                             autocomplete="off">
                         </form>
-                        <img src="assets/img/Icone.png" alt="" class="lupa">                        
+                        <img src="assets/img/Icone.png" alt="" class="iconoLupa">                      
                     </div>
                 </div>
-                <button class="busqueda">Login</button>
+                <button class="login">Login</button>
             </div>
         </header>
         <main>
             <section class="banner">
                 <div class="imagenes">
-                    <img src="assets/img/libreriaChardron.jpg" alt="" class="libreria2">                    
+                    <img src="assets/img/libreriaChardron.jpg" alt="" class="libreria">                    
                     <img class="libreria" src="assets/img/libreriaAteneo.jpg" alt="Imagen Librería">
                 </div>
                 <div class="promociones">
-                    <h1 class="tituloPromocion">Promociones especiales</h1>
-                    <p class="detallePromocion">Libros seleccionados con un 30% de descuento</p>
+                    <h1 class="tituloPromocion">Lista de su amigo (a)</h1>
+                    <p class="detallePromocion">Libros que su amigo(a) muere por leer</p>
                 </div>
-                <button class="consolas">Ver promociones</button>
+                <button class="avisoPromocion">Búsqueda</button>
             </section>
-            <section class="products container">
-                <div class="seccionprimera">
+            <section class="products">
+                <div class="secciones">
                     <div class="titulo">
-                        <h1 class="productosTitulo">Novelas Clásicas</h1>
+                        <h1 class="productosTitulo">Libros más leídos</h1>
                         <div class="verTodoGrupo">
                             <p class="verTodo">Ver todo</p>
                             <img src="assets/img/arrow_back_black_24dp 1.png" alt="" class="flecha">
@@ -78,13 +87,13 @@
                     </div>
                     <div class="cuadroLibros">
                         <div class="detalleLibro">
-                            <img src="assets/img/losMIserables.jpg" alt="" class="libro">
+                            <img src="assets/img/losMIserables.png" alt="" class="libro">
                             <p class="tituloLibro">Los Miserables</p>
                             <p class="precio">$12</p>
                             <p class="enlace">Comprar</p>
                         </div>
                         <div class="detalleLibro">
-                            <img src="assets/img/cienAnosDeSoledad.jpeg" alt="" class="libro">
+                            <img src="assets/img/cienAnosDeSoledad.jpg" alt="" class="libro">
                             <p class="tituloLibro">Cien años de soledad</p>
                             <p class="precio">$15</p>
                             <p class="enlace">Comprar</p>
@@ -115,9 +124,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="seccionsegunda">
+                <div class="secciones">
                     <div class="titulo">
-                        <h1 class="productosTitulo">Aventuras adolescentes</h1>
+                        <h1 class="productosTitulo">Libros sugeridos</h1>
                         <div class="verTodoGrupo">
                             <p class="verTodo">Ver todo</p>
                             <img src="assets/img/arrow_back_black_24dp 1.png" alt="" class="flecha">
@@ -131,13 +140,13 @@
                             <p class="enlace">Comprar</p>
                         </div>
                         <div class="detalleLibro">
-                            <img src="assets/img/julioVerne.jpg" alt="" class="libro">
+                            <img src="assets/img/veinteMilLeguasdeViajeSubmarino.jpg" alt="" class="libro">
                             <p class="tituloLibro">Veinte mil leguas de viaje submarino</p>
                             <p class="precio">$17</p>
                             <p class="enlace">Comprar</p>
                         </div>
                         <div class="detalleLibro">
-                            <img src="assets/img/harryPotter.jpg" alt="" class="libro">
+                            <img src="assets/img/harryPotter1.jpg" alt="" class="libro">
                             <p class="tituloLibro">Harry Potter y la piedra filosofal</p>
                             <p class="precio">$17</p>
                             <p class="enlace">Comprar</p>
@@ -162,9 +171,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="secciontercera">
+                <div class="secciones">
                     <div class="titulo">
-                        <h1 class="productosTitulo">Libros variados</h1>
+                        <h1 class="productosTitulo">Nuevos títulos</h1>
                         <div class="verTodoGrupo">
                             <p class="verTodo">Ver todo</p>
                             <img src="assets/img/arrow_back_black_24dp 1.png" alt="" class="flecha">
@@ -178,14 +187,14 @@
                             <p class="enlace">Comprar</p>
                         </div>
                         <div class="detalleLibro">
-                            <img src="assets/img/StephenHawking.jpeg" alt="" class="libro">
-                            <p class="tituloLibro">Historia del tiempo</p>
+                            <img src="assets/img/comoelRioQueFluye.jpg" alt="" class="libro">
+                            <p class="tituloLibro">Como el río que fluye</p>
                             <p class="precio">$12</p>
                             <p class="enlace">Comprar</p>
                         </div>
                         <div class="detalleLibro">
-                            <img src="assets/img/anatomia.png" alt="" class="libro">
-                            <p class="tituloLibro">Anatomía con orientación clínica</p>
+                            <img src="assets/img/cumbresBorrascosas.jpg" alt="" class="libro">
+                            <p class="tituloLibro">Cumbres Borrascosas</p>
                             <p class="precio">$100</p>
                             <p class="enlace">Comprar</p>
                         </div>
@@ -209,7 +218,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="seccioncuarta">
+                <div class="secciones">
                     <div class="titulo">
                         <h1 class="productosTitulo">Libros en promoción</h1>
                         <div class="verTodoGrupo">
@@ -255,37 +264,38 @@
                             <p class="enlace">Comprar</p>
                         </div>
                     </div>
-                </section>
-                <section class="contact container">
-                    <div class="logopie">
-                        <img src="assets/img/iotsalud_logo_B.gif" alt="Logo FNX Servicios" class="iot">
-                        <p class="empresa">FNX Servicios</p>
-                        <p class="precio">$12</p>
-                        <p class="enlace">Comprar</p>
+                </div>    
+            </section>
+            <section class="politicasyContacto">
+                <div class="politicasyContacto--cuadro">
+                    <div class="politicasyContacto--cuadro--izquierda">
+                        <div class="politicasyContacto--cuadro--izquierda--logotipo">
+                            <img src="assets/img/iotsalud_logo_B.gif" alt="" class="logoEmpresa">
+                            <span class="cabecera--nombreEmpresa">F.N.X. Servicios</span>
+                        </div>
+                        <div class="politicasyContacto--cuadro--izquierda--enlaces">
+                            <p class="politicasyContacto--cuadro--izquierda--enlaces--quienes">Quienes somos</p>
+                            <p class="politicasyContacto--cuadro--izquierda--enlaces--privacidad">Política de pivacidad</p>
+                            <p class="politicasyContacto--cuadro--izquierda--enlaces--fidelidad">Programa de fidelidad</p>
+                            <p class="politicasyContacto--cuadro--izquierda--enlaces--tiendas">Librerías asociadas</p>
+                            <p class="politicasyContacto--cuadro--izquierda--enlaces--franquicia">Quiero ser franquiciado</p>
+                            <p class="politicasyContacto--cuadro--izquierda--enlaces--anuciese">Anunciese aquí</p>
+                        </div>
+                    </div>
+                    <div class="politicasyContacto--cuadro--contactenos">
+                        <p class="politicasyContacto--cuadro--contactenos--rotuloHablenos">Hable con nosotros</p>
+                        <form action="#" target="" method="get" name="formulario_contacto" class="politicasyContacto--cuadro--contactenos--formulario">
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" minlength="5" maxlength="300" class="politicasyContacto--cuadro--contactenos--nombre" required/>
+                            <textarea name="mensaje" for="mensaje" placeholder="Escriba su mensaje" minlength="5" maxlength="300" class="politicasyContacto--cuadro--contactenos--mensaje" required></textarea>
+                        </form>
+                        <input type="submit" name="enviar" value="Enviar mensaje" class="politicasyContacto--cuadro--contactenos--enviar"/>
                     </div>
                 </div>
-                <div class="informacion">
-                    <p class="Quienes">Quienes somos</p>
-                    <p for="privacidad">Política de privacidad</p>
-                    <p for="fidelidad">Política de fidelidad</p>
-                    <p for="tiendas">Nuestras tiendas</p>
-                    <p for="franquiciado">Quiero ser franquiciado</p>
-                    <p for="anuncie">Anuncie aquí</p>
-                </div>
-                <div class="Contactenos">
-                    <p class="Hablenos">Hable con nosotros</p>
-                    <form action="#" target="" method="get" name="formulario_contacto" class="formulario">
-                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" minlength="5" maxlength="300" required/>
-	                    <textarea name="mensaje" for="mensaje" placeholder="Escriba su mensaje" minlength="5" maxlength="300" required></textarea>
-                    </form>
-                    <input type="submit" name="enviar" value="enviar mensaje" required/>
-                </div>
-            </section>
-            <section class="footer container">
-                <div class="creditos">
-                    <h1 class="credito_mio">Desarrollado por Rodolfo Gutierrez</h1>
-                    <p class="ano">2023</p>
-                </div>
+            </div>
+            </section>            
+            <section class="footer__creditos">
+                <p class="footer__creditos__implementador">Desarrollado por Rodolfo Gutierrez Seas</p>
+                <p class="footer__creditos__ano">2023</p>
             </section>
         </main>
     </body>

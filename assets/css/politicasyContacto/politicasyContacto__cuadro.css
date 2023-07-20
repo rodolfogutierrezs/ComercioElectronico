@@ -1,0 +1,17 @@
+.politicasyContacto--cuadro{
+    display: flex;
+    max-width: 1136px;
+}
+
+@media screen and (max-width:768px) {
+    .politicasyContacto--cuadro{
+        max-width: 704px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .politicasyContacto--cuadro{
+        flex-direction: column;
+        max-width: 328px;
+    }
+}

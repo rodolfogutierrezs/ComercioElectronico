@@ -1,0 +1,23 @@
+.menuAdministrador{
+    background: none;
+    width: 210px;
+    height: 51px;
+    border: solid 1px;
+    padding: 16px;
+    gap: 10px;
+    border-color: #2A7AE4;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #2A7AE4;
+}
+
+@media screen and (max-width:768px) {
+    .menuAdministrador{
+        width: 165px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+}

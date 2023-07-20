@@ -1,0 +1,27 @@
+.contact{
+    width: 1500px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    background-color: #EAF2FD;
+}
+
+@media screen and (max-width: 768px){
+    .contact{
+        width: 768px;
+        padding: 0px;
+        margin: 0rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .contact{
+        width: 360px;
+        flex-direction: column;
+        padding: 0px;
+    }
+}

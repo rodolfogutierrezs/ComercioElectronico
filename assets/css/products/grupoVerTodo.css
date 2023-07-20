@@ -15,3 +15,23 @@
     width: 24px;
     height: 24px;
 }
+
+@media screen and (max-width: 768px){
+    .verTodo{
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .verTodo{
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+    
+    .flecha{
+        width: 16px;
+        height: 16px;
+    }
+}

@@ -1,0 +1,13 @@
+.politicasyContacto--cuadro--contactenos--rotuloHablenos{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+
+@media screen and (max-width:360px) {
+    .politicasyContacto--cuadro--contactenos--rotuloHablenos{
+        padding-left: 2rem;
+    }
+}

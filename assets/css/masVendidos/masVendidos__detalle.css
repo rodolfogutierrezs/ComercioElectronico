@@ -1,0 +1,4 @@
+.seleccionMasVendidos--detalle{
+    display: flex;
+    flex-wrap: wrap;
+}

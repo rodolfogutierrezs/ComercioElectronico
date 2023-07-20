@@ -1,7 +1,18 @@
 .cuadroLibros{
     display: flex;
-    flex-wrap: wrap;
-    padding: 2rem 2rem 2rem 2rem;
-    gap: 2rem;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .cuadroLibros{
+        max-width: 704px ;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .cuadroLibros{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

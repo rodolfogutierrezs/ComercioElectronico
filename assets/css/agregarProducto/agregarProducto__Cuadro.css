@@ -1,0 +1,13 @@
+.agregarProducto--Cuadro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1136px;
+    gap: 16px;
+    justify-content: center;
+}
+
+@media screen and (max-width:360px) {
+    .agregarProducto--Cuadro{
+        width: 328px;
+    }
+}

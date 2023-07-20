@@ -1,0 +1,19 @@
+.politicasyContacto--cuadro--izquierda{
+    display: flex;
+    width: 50%;
+}
+
+@media screen and (max-width:768px) {
+    .politicasyContacto--cuadro--izquierda{
+        flex-direction: column;
+        width: 33%;
+        padding-left: 2rem;
+    }    
+}
+
+@media screen and (max-width:360px) {
+    .politicasyContacto--cuadro--izquierda{
+        width: 100%;
+        justify-content: center;
+    }
+}

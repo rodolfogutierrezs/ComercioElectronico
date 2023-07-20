@@ -1,0 +1,75 @@
+.agregarProducto--Cuadro--encabezado--formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 8px;
+}
+
+.agregarProducto--Cuadro--encabezado--url{
+    width: 559px;
+    height: 56px;
+    gap: 8px;
+}
+
+.agregarProducto--Cuadro--encabezado--categoria{
+    width: 559px;
+    height: 56px;
+    gap: 8px;
+}
+
+.agregarProducto--Cuadro--encabezado--nombre{
+    width: 559px;
+    height: 56px;
+    gap: 8px; 
+}
+
+.agregarProducto--Cuadro--encabezado--precio{
+    width: 559px;
+    height: 56px;
+    gap: 8px;
+}
+
+.agregarProducto--Cuadro--encabezado--detalle{
+    width: 559px;
+    height: 82px;
+
+}
+
+.agregarProducto--Cuadro--encabezado--enviar{
+    background-color: #2A7AE4;
+    border: none;
+    width: 559px;
+    height: 51px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: white;
+    padding-top: 8px;
+}
+
+@media screen and (max-width:360px) {
+    .agregarProducto--Cuadro--encabezado--url{
+        width: 328px;
+    }
+ 
+    .agregarProducto--Cuadro--encabezado--categoria{
+        width: 328px;
+    }
+
+    .agregarProducto--Cuadro--encabezado--nombre{
+        width: 328px;
+    }
+
+    .agregarProducto--Cuadro--encabezado--precio{
+        width: 328px;
+    }
+
+    .agregarProducto--Cuadro--encabezado--detalle{
+        width: 328px;
+    }
+
+    .agregarProducto--Cuadro--encabezado--enviar{
+        width: 328px;
+    }
+}

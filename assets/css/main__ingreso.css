@@ -1,0 +1,7 @@
+.main--ingreso{
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

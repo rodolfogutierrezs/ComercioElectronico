@@ -1,0 +1,18 @@
+.rodapie--nosotros{
+    display: flex;
+    width: 1132px;
+}
+
+@media screen and (max-width:768px) {
+    .rodapie--nosotros{
+        width: 704px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .rodapie--nosotros{
+        flex-direction: column;
+        width: 331px;
+        justify-content: center;
+    }
+}

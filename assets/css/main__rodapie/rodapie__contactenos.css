@@ -1,0 +1,57 @@
+.rodapie--contactenos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contactenos--rotuloHablenos{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+
+.contactenos--formulario{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 8px;
+}
+
+.contactenos--nombre{
+    height: 56px;
+}
+
+.contactenos--mensaje{
+    height: 82px;
+}
+
+.contactenos--enviar{
+    display: flex;
+    width: 156px;
+    height: 51px;
+    padding: 16px;
+    background-color: #2A7AE4;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .rodapie--contactenos{
+        width: 62%;
+    }
+
+    .contactenos--formulario{
+        width: 434px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .contactenos--formulario{
+        width: 331px;
+    }
+}

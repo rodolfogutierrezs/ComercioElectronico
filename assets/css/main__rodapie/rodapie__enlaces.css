@@ -1,0 +1,24 @@
+.rodapie--enlaces{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    gap: 14px;
+    color: #464646;
+}
+
+@media screen and (max-width:768px){
+    .rodapie--enlaces{
+        width: auto;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .rodapie--enlaces{
+        justify-content: center;
+    }    
+}

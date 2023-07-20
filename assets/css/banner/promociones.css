@@ -1,27 +1,35 @@
 .tituloPromocion{
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: 40%;
+    left: 5%;
     color: white;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 52px;
-    line-height: 61px;
+    line-height: 61.05px;
 }
 
 .detallePromocion{
     position: absolute;
-    top: 65%;
-    left: 10%;
+    top: 55%;
+    left: 5%;
     color: white;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 22px;
-    line-height: 25px;
+    line-height: 25.83px;
 }
 
-.consolas{
-    position: absolute;
-    top: 80%;
-    left: 10%;
+@media screen and (max-width: 360px){
+    .tituloPromocion{
+        top: 30%;
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+    .detallePromocion{
+        top: 40%;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
 }

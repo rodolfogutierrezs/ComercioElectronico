@@ -1,0 +1,12 @@
+.rodapie--logotipo{
+    display: flex;
+    width: 50%;
+    padding-top: 15px;
+    align-self: flex-start;
+}
+
+@media screen and (max-width:768px) {
+    .rodapie--logotipo{
+        width: auto;
+    }    
+}

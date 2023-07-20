@@ -1,0 +1,52 @@
+.politicasyContacto--cuadro--izquierda--enlaces{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+}
+
+@media screen and (max-width:768px) {
+    .politicasyContacto--cuadro--izquierda--enlaces{
+        width: 100%;
+    }    
+}
+
+@media screen and (max-width:360px) {
+    .politicasyContacto--cuadro--izquierda--enlaces{
+        justify-content: center;
+    }
+
+    .politicasyContacto--cuadro--izquierda--enlaces--quienes{
+        display: flex;
+        justify-content: center;
+    }
+
+    .politicasyContacto--cuadro--izquierda--enlaces--privacidad{
+        display: flex;
+        justify-content: center;
+    }
+
+    .politicasyContacto--cuadro--izquierda--enlaces--fidelidad{
+        display: flex;
+        justify-content: center;
+    }
+
+    .politicasyContacto--cuadro--izquierda--enlaces--tiendas{
+        display: flex;
+        justify-content: center;
+    }
+
+    .politicasyContacto--cuadro--izquierda--enlaces--franquicia{
+        display: flex;
+        justify-content: center;
+    }
+
+    .politicasyContacto--cuadro--izquierda--enlaces--anuciese{
+        display: flex;
+        justify-content: center;
+    }
+}

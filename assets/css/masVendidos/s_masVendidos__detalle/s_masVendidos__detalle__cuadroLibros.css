@@ -1,0 +1,11 @@
+.seleccionMasVendidos--detalle--cuadroLibros{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:768px) {
+    .seleccionMasVendidos--detalle--cuadroLibros{
+        gap: 0rem
+    }
+}

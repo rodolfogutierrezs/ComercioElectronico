@@ -1,0 +1,23 @@
+.seccionIzquierda{
+    display: flex;
+}
+
+@media screen and (max-width: 768px){
+    .seccionIzquierda{
+        display: block;
+        padding: 10px;
+        column-width: 150px;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .seccionIzquierda{
+        column-width: 328px;
+        width: 100%;
+        padding: 0px;
+        display: grid;
+        place-content: center;
+        justify-content: center;
+    }
+}

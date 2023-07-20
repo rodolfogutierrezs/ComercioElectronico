@@ -1,0 +1,15 @@
+.agregarProducto--Cuadro--encabezado--titulo{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    padding-bottom: 8px;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width:360px) {
+    .agregarProducto--Cuadro--encabezado--titulo{
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+}
