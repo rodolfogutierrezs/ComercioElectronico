@@ -49,27 +49,39 @@
 }
 
 @media screen and (max-width:360px) {
+    .agregarProducto--Cuadro--encabezado--formulario{
+        display: flex;
+        padding-bottom: 8px;
+        justify-content: center;
+    }
+
     .agregarProducto--Cuadro--encabezado--url{
-        width: 328px;
+        width: 324px;
+        padding: 0px;
     }
  
     .agregarProducto--Cuadro--encabezado--categoria{
-        width: 328px;
+        width: 324px;
+        padding: 0px;
     }
 
     .agregarProducto--Cuadro--encabezado--nombre{
-        width: 328px;
+        width: 324px;
+        padding: 0px;
     }
 
     .agregarProducto--Cuadro--encabezado--precio{
-        width: 328px;
+        width: 324px;
+        padding: 0px;
     }
 
     .agregarProducto--Cuadro--encabezado--detalle{
-        width: 328px;
+        width: 324px;
+        padding: 0px;
     }
 
     .agregarProducto--Cuadro--encabezado--enviar{
-        width: 328px;
+        width: 324px;
+        padding: 0px;
     }
 }

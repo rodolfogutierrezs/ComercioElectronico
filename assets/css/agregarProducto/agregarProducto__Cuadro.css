@@ -6,6 +6,12 @@
     justify-content: center;
 }
 
+@media screen and (max-width:768px) {
+    .agregarProducto--Cuadro{
+        width: 768px;
+    }
+}
+
 @media screen and (max-width:360px) {
     .agregarProducto--Cuadro{
         width: 328px;

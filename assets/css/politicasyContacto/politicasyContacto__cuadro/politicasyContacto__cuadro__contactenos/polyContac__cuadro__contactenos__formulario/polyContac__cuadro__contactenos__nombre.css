@@ -1,4 +1,7 @@
 .politicasyContacto--cuadro--contactenos--nombre{
-    height: 56px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 82px;
     gap: 8px;
 }

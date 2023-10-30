@@ -1,17 +1,18 @@
 .seleccionMasVendidos--encabezado{
     display: flex;
-    width: 100%;
+    width: 1136px;
     height: 51px;
     justify-content: space-between;
     padding-bottom: 2rem;
     padding-left: 5rem;
-    padding-right: 8rem;
+    padding-right: 1rem;
     padding-top: 2rem;
     align-items: center;
 }
 
 @media screen and (max-width:768px) {
     .seleccionMasVendidos--encabezado{
+        width: 768px;
         justify-content: space-around;
         padding-left: 0px;
         padding-right: 0px;
@@ -20,11 +21,11 @@
 
 @media screen and (max-width:360px) {
     .seleccionMasVendidos--encabezado{
+        width: 360px;
         flex-direction: column;
         padding-bottom: 5rem;
         padding-left: 0px;
         justify-content: left;
         padding-right: 0px;
     }
-    
 }

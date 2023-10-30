@@ -1,7 +1,6 @@
 .politicasyContacto{
     display: flex;
     width: 100%;
-    padding: 64px;
     background-color: #EAF2FD;
     flex-direction: column;
     justify-content: center;

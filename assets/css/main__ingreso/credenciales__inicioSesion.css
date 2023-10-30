@@ -8,17 +8,9 @@
     color: #464646;
 }
 
-.correoElectronico{
+.input{
     width: 423px;
     height: 63.13px;
-    padding: 8px;
-    border: solid 1px;
-    color: #2A7AE4;
-}
-
-.contrasena{
-    width: 423px;
-    height: 63px;
     padding: 8px;
     border: solid 1px;
     color: #2A7AE4;
@@ -48,28 +40,18 @@
         line-height: 18.78px;        
     }
 
-    .correoElectronico{
+    .input{
         width: 275px;
         height: 41px;
         border-radius: 4px;
     }
 
-    .contrasena{
-        width: 275px;
-        height: 41px;
-    }
-
     .Entrar{
         width: 109px;
         height: 40px;
-        gap: 10px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .Entrar{
         font-size: 14px;
         list-style: 16.44px;
+        gap: 10px;
     }
 }
 
@@ -78,11 +60,7 @@
         width: 275px;
     }
 
-    .correoElectronico{
-        width: 257px;
-    }
-
-    .contrasena {
+    .input{
         width: 257px;
     }
 }

@@ -1,0 +1,17 @@
+.seleccionMasVendidos{
+    width: 1136px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:768px) {
+    .seleccionMasVendidos{
+        width: 704px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .seleccionMasVendidos{
+        width: 296px;
+    }
+}

@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/politicasyContacto__cuadro__contactenos__formulario.css">
         <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/polyContac__cuadro__contactenos__formulario/polyContac__cuadro__contactenos__nombre.css">
         <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/polyContac__cuadro__contactenos__formulario/polyContac__cuadro__contactenos__mensaje.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/polyContac__cuadro__contactenos__formulario/input.css">
         <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/politicasyContacto__cuadro__contactenos__enviar.css">
         <link rel="stylesheet" href="assets/css/footer__creditos.css">
 
@@ -59,10 +60,20 @@
             <div class="main--ingreso">
                 <div class="main--credenciales">
                     <h1 class="credenciales--inicioSesion">Iniciar sesion</h1>
-                    <form action="" class="inicio--sesionDatos">
-                        <input type="text" class="correoElectronico" placeholder="Escriba su Correo Electrónico">
-                        <input type="text" class="contrasena" placeholder="Escriba su contraseña">
-                        <button class="Entrar">Entrar</button>
+                    <form method="post" action="" target="" method="get" class="inicio--sesionDatos" id="form">
+                        <div class="inicio--sesionDatos--detalle">
+                            <input type="email" class="input" id="email" name="email" data-tipo="email"
+                            pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"
+                            placeholder="Escriba su Correo Electrónico" data-tipo="email" required autocomplete="off"/>
+                            <span class="input-message-error">Este campo no es válido</span>
+                        </div>
+                        <div class="inicio--sesionDatos--detalle">
+                            <input type="password" class="input" id="contrasena"
+                            pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$"
+                            placeholder="Escriba su contraseña" data-tipo="contrasena" required autocomplete="off"/>
+                            <span class="input-message-error">Este campo no es válido</span>
+                        </div>
+                        <button type="submit" class="Entrar">Ingresar</button>
                     </form>
                 </div>
             </div>
@@ -84,19 +95,30 @@
                     </div>
                     <div class="politicasyContacto--cuadro--contactenos">
                         <p class="politicasyContacto--cuadro--contactenos--rotuloHablenos">Hable con nosotros</p>
-                        <form action="#" target="" method="get" name="formulario_contacto" class="politicasyContacto--cuadro--contactenos--formulario">
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" minlength="5" maxlength="300" class="politicasyContacto--cuadro--contactenos--nombre" required/>
-                            <textarea name="mensaje" for="mensaje" placeholder="Escriba su mensaje" minlength="5" maxlength="300" class="politicasyContacto--cuadro--contactenos--mensaje" required></textarea>
+                        <form action="#" target="" method="get" name="formulario_contacto" 
+                        class="politicasyContacto--cuadro--contactenos--formulario">
+                            <div class="politicasyContacto--cuadro--contactenos--nombre">
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="40" 
+                                class="input" required autocomplete="off" data-tipo="nombre"/>
+                                <span class="input-message-error">Este campo no es válido</span>
+                            </div>
+                            <div class="politicasyContacto--cuadro--contactenos--mensaje">
+                                <input type="text" name="mensaje" id="mensaje" placeholder="Escriba su mensaje" minlength="5" 
+                                class="input" maxlength="120" required data-tipo="mensaje"></input>
+                                <span class="input-message-error">Este campo no es válido</span>
+                            </div>
+                            <input type="submit" name="enviar" value="Enviar mensaje" 
+                            class="politicasyContacto--cuadro--contactenos--enviar"/>
                         </form>
-                        <input type="submit" name="enviar" value="Enviar mensaje" class="politicasyContacto--cuadro--contactenos--enviar"/>
                     </div>
                 </div>
-            </div>
             </section>            
             <section class="footer__creditos">
                 <p class="footer__creditos__implementador">Desarrollado por Rodolfo Gutierrez Seas</p>
                 <p class="footer__creditos__ano">2023</p>
             </section>
         </main>
+        <script src="/service/chkAnesartnoc.js" type="module"></script>        
+        <script src = "/service/login.js" type="module"></script>
     </body>
 </html>

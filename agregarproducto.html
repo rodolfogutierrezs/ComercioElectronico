@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Pacifico&family=Raleway&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="assets/css/cabecera.css">
+        <link rel="stylesheet" href="assets/css/cabecera/cabecera__cuadro.css">        
         <link rel="stylesheet" href="assets/css/cabecera/cabecera__logoBusqueda.css">
         <link rel="stylesheet" href="assets/css/cabecera/cabecera__logotipo.css">
         <link rel="stylesheet" href="assets/css/cabecera/cabecera__barraBusqueda.css">
@@ -31,30 +32,33 @@
         <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/politicasyContacto__cuadro__contactenos__formulario.css">
         <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/polyContac__cuadro__contactenos__formulario/polyContac__cuadro__contactenos__nombre.css">
         <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/polyContac__cuadro__contactenos__formulario/polyContac__cuadro__contactenos__mensaje.css">
+        <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/polyContac__cuadro__contactenos__formulario/input.css">
         <link rel="stylesheet" href="assets/css/politicasyContacto/politicasyContacto__cuadro/politicasyContacto__cuadro__contactenos/politicasyContacto__cuadro__contactenos__enviar.css">
         <link rel="stylesheet" href="assets/css/footer__creditos.css">
     </head>
     <body>
         <header>
             <div class="cabecera">
-                <div class="cabecera--logoBusqueda">
-                    <div class="cabecera--logotipo">
-                        <img src="assets/img/iotsalud_logo_B.gif" alt="" class="logoEmpresa">
-                        <span class="cabecera--nombreEmpresa">F.N.X. Servicios</span> 
+                <div class="cabeceraCuadro">
+                    <div class="cabecera--logoBusqueda">
+                        <div class="cabecera--logotipo">
+                            <img src="assets/img/iotsalud_logo_B.gif" alt="" class="logoEmpresa">
+                            <span class="cabecera--nombreEmpresa">F.N.X. Servicios</span> 
+                        </div>
+                        <div class="cabecera--barraBusqueda">
+                                <form action="">
+                                    <input
+                                    type="text"
+                                    name="busqueda"
+                                    placeholder="¿Qué título desea buscar?"
+                                    class="inputForm"
+                                    autocomplete="off">
+                                </form>
+                                <img src="assets/img/Icone.png" alt="" class="iconoLupa">
+                        </div>
                     </div>
-                    <div class="cabecera--barraBusqueda">
-                            <form action="">
-                                <input
-                                type="text"
-                                name="busqueda"
-                                placeholder="¿Qué título desea buscar?"
-                                class="inputForm"
-                                autocomplete="off">
-                            </form>
-                            <img src="assets/img/Icone.png" alt="" class="iconoLupa">
-                    </div>
+                    <button class="menuAdministrador">Menú administrador</button>                    
                 </div>
-                <button class="menuAdministrador">Menú administrador</button>
             </div>
         </header>
         <main>
@@ -92,19 +96,29 @@
                     </div>
                     <div class="politicasyContacto--cuadro--contactenos">
                         <p class="politicasyContacto--cuadro--contactenos--rotuloHablenos">Hable con nosotros</p>
-                        <form action="#" target="" method="get" name="formulario_contacto" class="politicasyContacto--cuadro--contactenos--formulario">
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" minlength="5" maxlength="300" class="politicasyContacto--cuadro--contactenos--nombre" required/>
-                            <textarea name="mensaje" for="mensaje" placeholder="Escriba su mensaje" minlength="5" maxlength="300" class="politicasyContacto--cuadro--contactenos--mensaje" required></textarea>
+                        <form action="#" target="" method="get" name="formulario_contacto" 
+                        class="politicasyContacto--cuadro--contactenos--formulario">
+                            <div class="politicasyContacto--cuadro--contactenos--nombre">
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="40" 
+                                class="input" required autocomplete="off" data-tipo="nombre"/>
+                                <span class="input-message-error">Este campo no es válido</span>
+                            </div>
+                            <div class="politicasyContacto--cuadro--contactenos--mensaje">
+                                <input type="text" name="mensaje" id="mensaje" placeholder="Escriba su mensaje" minlength="5" 
+                                class="input" maxlength="120" required data-tipo="mensaje"></input>
+                                <span class="input-message-error">Este campo no es válido</span>
+                            </div>
+                            <input type="submit" name="enviar" value="Enviar mensaje" 
+                            class="politicasyContacto--cuadro--contactenos--enviar"/>
                         </form>
-                        <input type="submit" name="enviar" value="Enviar mensaje" class="politicasyContacto--cuadro--contactenos--enviar"/>
                     </div>
                 </div>
-            </div>
-            </section>            
+            </section>
             <section class="footer__creditos">
                 <p class="footer__creditos__implementador">Desarrollado por Rodolfo Gutierrez Seas</p>
                 <p class="footer__creditos__ano">2023</p>
             </section>
         </main>
+        <script src = "/service/funciones.js" type="module"></script>
     </body>
 </html>

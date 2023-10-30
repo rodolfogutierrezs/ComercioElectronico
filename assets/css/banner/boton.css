@@ -1,4 +1,4 @@
-.avisoPromocion{
+.saltoaSubtitulo{
     background: #2A7AE4;
     width: 200px;
     border: none;
@@ -13,8 +13,13 @@
     left: 5%;
 }
 
+.vinculo{
+    text-decoration: none;
+    color: white;
+}
+
 @media screen and (max-width: 768px){
-    .avisoPromocion{
+    .saltoaSubtitulo{
         width: 130px;
         height: 40px;
         padding: 12px 16px 12px 16px;
@@ -22,7 +27,7 @@
 }
 
 @media screen and (max-width: 360px) {
-    .avisoPromocion{
+    .saltoaSubtitulo{
         top: 65%;
         max-width: 118px;
         max-height: 40px;
